@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UBC-DMM NARG Reading Group</title>
+  <!-- Load SortableJS for table sorting -->
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; max-width: 800px; margin-left: auto; margin-right: auto; }
+    h1, h2 { color: #333; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; cursor: pointer; }
+    th:hover { background-color: #ddd; }
+    a { color: #0066cc; }
+  </style>
+</head>
+<body>
+  <h1>UBC-DMM NARG Reading Group</h1>
+  <p><strong>About the Lab</strong>: We're a team of researchers at the University of British Columbia focusing on advancements in [Your Field, e.g., Data Mining and Machine Learning].</p>
+  <p><strong>Contact</strong>: Email lab-lead@ubc.ca or join our <a href="#">Slack channel</a>.</p>
+  <p><strong>Archives</strong>: Below is a table of past presentations. Click column headers to sort by Date or Presenter.</p>
+
+  <table id="presentations-table">
+    <thead>
+      <tr>
+        <th data-sort="date">Date</th>
+        <th data-sort="presenter">Presenter</th>
+        <th>Slide Link</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+
+  <script>
+    // GitHub organization and repo details
+    const owner = 'UBC-DMM';
+    const repo = 'NARG';
+    const path = 'slides';
+
+    // Fetch files from /slides/ using GitHub API
+    fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
+      .then(response => response.json())
+      .then(files => {
+        const tableBody = document.getElementById('table-body');
+        const promises = files
+          .filter(file => file.type === 'file') // Only process files, not subdirectories
+          .map(file => {
+            // Fetch commit info for each file to get author and date
+            return fetch(`https://api.github.com/repos/${owner}/${repo}/commits?path=${file.path}`)
+              .then(response => response.json())
+              .then(commits => {
+                const latestCommit = commits[0]; // Get the most recent commit
+                const date = new Date(latestCommit.commit.author.date).toISOString().split('T')[0];
+                const presenter = latestCommit.commit.author.name || latestCommit.author.login;
+                return { date, presenter, slideLink: file.download_url };
+              });
+          });
+
+        // Wait for all commit info to resolve
+        Promise.all(promises).then(rows => {
+          rows.forEach(row => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+              <td>${row.date}</td>
+              <td>${row.presenter}</td>
+              <td><a href="${row.slideLink}">View ${row.slideLink.split('/').pop()}</a></td>
+            `;
+            tableBody.appendChild(tr);
+          });
+
+          // Enable sorting with SortableJS
+          const table = document.getElementById('presentations-table');
+          new Sortable(table, {
+            animation: 150,
+            sort: false,
+            handle: 'th',
+            onEnd: function (evt) {
+              const th = evt.item;
+              const sortKey = th.getAttribute('data-sort');
+              const rows = Array.from(tableBody.children);
+              const isAsc = th.classList.toggle('ascending');
+              rows.sort((a, b) => {
+                const aValue = a.children[sortKey === 'date' ? 0 : 1].textContent;
+                const bValue = b.children[sortKey === 'date' ? 0 : 1].textContent;
+                return isAsc ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
+              });
+              tableBody.innerHTML = '';
+              rows.forEach(row => tableBody.appendChild(row));
+            }
+          });
+        });
+      })
+      .catch(error => console.error('Error fetching files:', error));
+  </script>
+</body>
+</html>
