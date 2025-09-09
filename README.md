@@ -7,8 +7,6 @@ Network Analytics Reading Group
 
 | Time | Topic/Paper | Presenter | Slides |
 | ----  | ------ | ------- | ------ |
-| Nov 17 | [Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/pdf/2205.14217.pdf) [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/pdf/2006.04558.pdf) | Chiyu Zhang Abdellah EL Mekki | [slides](https://github.com/UBC-NLP/dl-nlp-rg/blob/master/slides/20221110_diffusion-lm.pdf) [slides](https://github.com/UBC-NLP/dl-nlp-rg/blob/master/slides/20221117_fastspeech2.pdf)|
-| Nov 10 | [Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/pdf/2205.14217.pdf) | Chiyu Zhang | [slides](https://github.com/UBC-NLP/dl-nlp-rg/blob/master/slides/20221110_diffusion-lm.pdf) |
 
 
 
