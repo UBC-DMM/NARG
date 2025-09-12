@@ -1,28 +1,46 @@
-NARG: Network Analytics Reading Group
+# **NARG: Network Analytics Reading Group**
 
-Welcome to the Network Analytics Reading Group (NARG) at UBC-DMM! We meet regularly to discuss cutting-edge papers and ideas in network analytics, data mining, and related fields. This repository serves as our central hub for schedules, archives, and presentation slides.
+Welcome to the **Network Analytics Reading Group (NARG)** at **UBC-DMM**!  
+We meet regularly to discuss cutting-edge papers and ideas in **network analytics**, **data mining**, and related fields.  
 
-Lab Members
+This repository serves as our central hub for **schedules, archives, and presentation slides**.
 
-Postdoc
-1. Keke Huang
+---
 
-PhD 
-1. Rudra Ranajee Saha
-2. Tawkat Islam
+## 👥 **Lab Members**
 
-MS Track PhD
+### **Postdoc**
+- Keke Huang
 
-1. Yifei Li
-2. Himanshu Goyal
-3. Kanwal Mehreen
+### **PhD**
+- Rudra Ranajee Saha  
+- Tawkat Islam
 
-MS
-1. Dorna Dehghani
+### **MS Track PhD**
+- Yifei Li  
+- Himanshu Goyal  
+- Kanwal Mehreen
 
-To add your slides, please edit the README.md file. For each slide, add the information in the following format:
+### **MS**
+- Dorna Dehghani
 
-| Time | [Topic/paper name] (paper URL)| Presenter Name|[slides](slide URL)|
+---
+
+## 📑 **How to Add Your Slides**
+
+To add your slides, edit the `README.md` file.  
+
+For each talk, add the information in the following format:
+
+| **Time** | **[Topic / Paper Name](paper URL)** | **Presenter** | **[Slides](slide URL)** |
+|----------|--------------------------------------|----------------|--------------------------|
+
+Example:
+
+| 2025-09-15 | [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652) | Rudra Ranajee Saha | [slides](slides/deepwalk.pdf) |
+
+---
+
 
 ## Winter 2025
 ### Time: Friday 2:00 - 3:30 pm (Vancouver time)
