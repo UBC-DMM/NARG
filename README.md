@@ -1,5 +1,52 @@
-# NARG
-Network Analytics Reading Group
+NARG: Network Analytics Reading Group
+
+Welcome to the Network Analytics Reading Group (NARG) at UBC-DMM! We meet regularly to discuss cutting-edge papers and ideas in network analytics, data mining, and related fields. This repository serves as our central hub for schedules, archives, and presentation slides.
+
+Lab Members
+
+Postdoc
+
+
+
+
+
+Keke Huang
+
+PhD Students
+
+
+
+
+
+Rudra Ranajee Saha
+
+
+
+Tawkat Islam
+
+MS Track PhD Students
+
+
+
+
+
+Yifei Li
+
+
+
+Himanshu Goyal
+
+
+
+Kanwal Mehreen
+
+MS Students
+
+
+
+
+
+Dorna Dehghani
 
 To add your slides, please edit the README.md file. For each slide, add the information in the following format:
 
