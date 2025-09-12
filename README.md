@@ -5,48 +5,20 @@ Welcome to the Network Analytics Reading Group (NARG) at UBC-DMM! We meet regula
 Lab Members
 
 Postdoc
+1. Keke Huang
 
+PhD 
+1. Rudra Ranajee Saha
+2. Tawkat Islam
 
+MS Track PhD
 
+1. Yifei Li
+2. Himanshu Goyal
+3. Kanwal Mehreen
 
-
-Keke Huang
-
-PhD Students
-
-
-
-
-
-Rudra Ranajee Saha
-
-
-
-Tawkat Islam
-
-MS Track PhD Students
-
-
-
-
-
-Yifei Li
-
-
-
-Himanshu Goyal
-
-
-
-Kanwal Mehreen
-
-MS Students
-
-
-
-
-
-Dorna Dehghani
+MS
+1. Dorna Dehghani
 
 To add your slides, please edit the README.md file. For each slide, add the information in the following format:
 
