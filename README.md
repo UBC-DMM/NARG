@@ -2,6 +2,7 @@
 Network Analytics Reading Group
 
 To add your slides, please edit the README.md file. For each slide, add the information in the following format:
+
 | Time | [Topic/paper name] (paper URL)| Presenter Name|[slides](slide URL)|
 
 ## Winter 2025
