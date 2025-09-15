@@ -46,8 +46,9 @@ Example:
 ### Time: Friday 2:00 - 3:30 pm (Vancouver time)
 ### Place: ICCS 146
 
-| Time | Topic/Paper | Presenter | Slides |
+| Time | Topic/Paper | Presenter | Slides |     
 | ----  | ------ | ------- | ------ |
+| 2025-09-12  | Brief Intro to Evolutionary Algorithm | Yifei Li | [slides](/slides/EA.pdf) |
 
 
 
@@ -66,4 +67,6 @@ Example:
 | - | [Text2SQL is Not Enough: Unifying AI and Databases with TAG](https://arxiv.org/pdf/2408.14717)| Rudra Ranajee Saha | [slides](https://github.com/UBC-DMM/NARG/blob/main/slides/Text2SQL%20is%20Not%20Enough-%20Unifying%20AI%20and%20Databases%20with%20TAG%20.pdf)|
 | - | [Stance Classification of Context-Dependent Claims](https://aclanthology.org/E17-1024.pdf)| Rudra Ranajee Saha | [slides](https://github.com/UBC-DMM/NARG/blob/main/slides/Stance%20Classification%20of%20Context-Dependent%20Claims.pdf)|
 | - | [Eight Things to Know about Large Language Models](https://read.dukeupress.edu/critical-ai/article/doi/10.1215/2834703X-11556011/400182)| Rudra Ranajee Saha | [slides](https://github.com/UBC-DMM/NARG/blob/main/slides/Eight%20Things%20to%20Know%20about%20Large%20Language%20Models.pdf)|
-
+| - | [Data Selection Via Optimal Control for Language Models](https://arxiv.org/pdf/2410.07064) | Yifei Li | [slides](/slides/PDS.pdf)
+| - | [A Declarative System for Optimizing AI Workloads](https://arxiv.org/pdf/2405.14696) | Yifei Li | [slides](/slides/Palimpzest_slides.pdf)
+| - | RL talk series (covers basic terminologies in RL, RL + LLM, etc) | Yifei Li | [slides](/slides/RL.pdf)
