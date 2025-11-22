@@ -53,7 +53,7 @@ Example:
 
 ## Summer 2025
 ### Time: Friday 2:00 - 3:30 pm (Vancouver time)
-### Place: ICCS 146
+### Place: ICCS 104
 
 | Time | Topic/Paper | Presenter | Slides |
 | ----  | ------ | ------- | ------ |
