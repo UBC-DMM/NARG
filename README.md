@@ -9,9 +9,6 @@ This repository serves as our central hub for **schedules, archives, and present
 
 ## 👥 **Lab Members**
 
-### **Postdoc**
-- Keke Huang
-
 ### **PhD**
 - Rudra Ranajee Saha  
 - Tawkat Islam
@@ -50,7 +47,7 @@ Example:
 | Time | Topic/Paper | Presenter | Slides |     
 | ----  | ------ | ------- | ------ |
 | 2025-09-12  | Brief Intro to Evolutionary Algorithm | Yifei Li | [slides](/slides/EA.pdf) |
-| 2025-09-26  | Jellyfish: A Large Language Model for Data Preprocessing | Dorna Dehghani | [slides](/slides/JellyfishandSpreadsheetLLM.pdf)|
+| 2025-09-26  | [Jellyfish: A Large Language Model for Data Preprocessing] (https://aclanthology.org/2024.emnlp-main.497.pdf) | Dorna Dehghani | [slides](/slides/JellyfishandSpreadsheetLLM.pdf)|
 | 2025-10-03  | Encoding Spreadsheets for Large Language Models (SpreadsheetLLM) | Dorna Dehghani | [slides](/slides/JellyfishandSpreadsheetLLM.pdf) |
 
 
