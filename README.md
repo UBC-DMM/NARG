@@ -49,6 +49,7 @@ Example:
 | 2025-09-12  | Brief Intro to Evolutionary Algorithm | Yifei Li | [slides](/slides/EA.pdf) |
 | 2025-09-15 | [Jellyfish: A Large Language Model for Data Preprocessing](https://aclanthology.org/2024.emnlp-main.497.pdf) | Dorna Dehghani | [slides](/slides/JellyfishandSpreadsheetLLM.pdf)|
 | 2025-10-03  | Encoding Spreadsheets for Large Language Models (SpreadsheetLLM) | Dorna Dehghani | [slides](/slides/JellyfishandSpreadsheetLLM.pdf) |
+| 2025-11-21  | Unlearning in Large Language Models | Kanwal Mehreen | [slides](/slides/Slides_ Unlearning in Large Language Models.pdf) |
 
 
 ## Summer 2025
