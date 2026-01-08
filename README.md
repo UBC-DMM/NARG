@@ -6,6 +6,12 @@ We meet regularly to discuss cutting-edge papers and ideas in **network analytic
 This repository serves as our central hub for **schedules, archives, and presentation slides**.
 
 ---
+## **To join the Reading Group**
+Send an email to na-rg-request@cs.ubc.ca with the keyword “join” in the email body.
+
+This will allow you to receive updates regarding the reading group, such as the speaker, the topic of discussion, etc.
+
+---
 
 ## 👥 **Lab Members**
 
