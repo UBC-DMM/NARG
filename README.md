@@ -1,8 +1,9 @@
 # **NARG: Network Analytics Reading Group**
 
 Welcome to the **Network Analytics Reading Group (NARG)** at **UBC-DMM**!  
-We meet regularly to discuss cutting-edge papers and ideas in **network analytics**, **data mining**, and related fields.  
-We meet at **ICICS-202** on **Fridays** from **2:00-3:30 pm** for our weekly meetings during Winter Term 2.
+
+For Winter term 2, we are going to meet at **ICICS-202** on **Fridays** from **2:00-3:30 pm** to discuss cutting-edge papers and ideas in **network analytics**, **data mining**, **NLP**, **AI and LLM**, and related fields.  
+
 This repository serves as our central hub for **schedules, archives, and presentation slides**.
 
 ---
