@@ -2,7 +2,7 @@
 
 Welcome to the **Network Analytics Reading Group (NARG)** at **UBC-DMM**!  
 
-For Winter term 2, we are going to meet at **ICICS-202** on **Fridays** from **2:00-3:30 pm** to discuss cutting-edge papers and ideas in **network analytics**, **data mining**, **NLP**, **AI and LLM**, and related fields.  
+For Summer 2026, we are going to meet at **ICICS-204** on **Fridays** from **2:00-3:30 pm** to discuss cutting-edge papers and ideas in **network analytics**, **data mining**, **NLP**, **AI and LLM**, and related fields.  
 
 This repository serves as our central hub for **schedules, archives, and presentation slides**.
 
@@ -14,20 +14,15 @@ This will allow you to receive updates regarding the reading group, such as the 
 
 ---
 
-## 👥 **Lab Members**
+## 👥 **Current Lab Members**
 
 ### **PhD**
-- Rudra Ranajee Saha  
 - Tawkat Islam
+- Yifei Li  
 
 ### **MS Track PhD**
-- Yifei Li  
 - Himanshu Goyal  
 - Kanwal Mehreen
-
-### **MS**
-- Dorna Dehghani
-- Xiang Zhang
 
 ---
 
@@ -45,6 +40,23 @@ Example:
 | 2025-09-15 | [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652) | Rudra Ranajee Saha | [slides](slides/deepwalk.pdf) |
 
 ---
+
+## Summer 2026
+### Time: Friday 2:00 - 3:30 pm (Vancouver time)
+### Place: ICCS 204
+
+| Time | Topic/Paper | Presenter | Slides |
+| ----  | ------ | ------- | ------ |
+| 2026-07-10 | [TRINITY: An Evolved LLM Coordinator](https://arxiv.org/abs/2512.04695) | Yifei Li | [slides](/slides/trinity_narg.pdf) |
+
+
+## Spring 2026
+### Time: Friday 2:00 - 3:30 pm (Vancouver time)
+
+| Time | Topic/Paper | Presenter | Slides |
+| ----  | ------ | ------- | ------ |
+| 2026-02-20 | [KumoRFM: A Foundation Model for In-Context Learning on Relational Data](https://kumo.ai/research/kumo_relational_foundation_model.pdf) | Yifei Li | [slides](/slides/kumo_narg.pdf) |
+| 2026-05-08 | [ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment](https://arxiv.org/abs/2602.17560) | Yifei Li | [slides](/slides/odesteer_narg.pdf) |
 
 
 ## Winter 2025
@@ -65,6 +77,7 @@ Example:
 
 | Time | Topic/Paper | Presenter | Slides |
 | ----  | ------ | ------- | ------ |
+
 
 ## Archieve
 
