@@ -37,10 +37,6 @@ For each talk, add the information in the following format:
 
 Example:
 
-| 2026-07-03 | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668) | Tawkat | [slides](slides/GRASP_presentation_Tawkat.pptx) |
-
-| 2026-03-13 | [Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation](https://arxiv.org/abs/2504.18453) | Tawkat | [slides](slides/BoxMed-RL_Presentation_Tawkat.pptx) |
-
 | 2025-09-15 | [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652) | Rudra Ranajee Saha | [slides](slides/deepwalk.pdf) |
 
 ---
@@ -51,6 +47,7 @@ Example:
 
 | Time | Topic/Paper | Presenter | Slides |
 | ----  | ------ | ------- | ------ |
+| 2026-07-03 | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668) | Tawkat | [slides](slides/GRASP_presentation_Tawkat.pptx) |
 | 2026-07-10 | [TRINITY: An Evolved LLM Coordinator](https://arxiv.org/abs/2512.04695) | Yifei Li | [slides](/slides/trinity_narg.pdf) |
 
 
@@ -60,6 +57,7 @@ Example:
 | Time | Topic/Paper | Presenter | Slides |
 | ----  | ------ | ------- | ------ |
 | 2026-02-20 | [KumoRFM: A Foundation Model for In-Context Learning on Relational Data](https://kumo.ai/research/kumo_relational_foundation_model.pdf) | Yifei Li | [slides](/slides/kumo_narg.pdf) |
+| 2026-03-13 | [Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation](https://arxiv.org/abs/2504.18453) | Tawkat | [slides](slides/BoxMed-RL_Presentation_Tawkat.pptx) |
 | 2026-05-08 | [ODESteer: A Unified ODE-Based Steering Framework for LLM Alignment](https://arxiv.org/abs/2602.17560) | Yifei Li | [slides](/slides/odesteer_narg.pdf) |
 
 
