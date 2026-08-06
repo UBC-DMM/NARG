@@ -37,6 +37,8 @@ For each talk, add the information in the following format:
 
 Example:
 
+| 2026-07-03 | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668) | Tawkat | [slides](slides/GRASP_presentation_Tawkat.pptx) |
+
 | 2025-09-15 | [DeepWalk: Online Learning of Social Representations](https://arxiv.org/abs/1403.6652) | Rudra Ranajee Saha | [slides](slides/deepwalk.pdf) |
 
 ---
